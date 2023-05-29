@@ -1,6 +1,6 @@
 ### Problem Statement
 
-#### I am a freelance Data Scientist, one of the entrepreneurs approached me and they want to start a Dating website targeting a particular age group, they gave me text from two subreddits and wanted me to classify the subreddits as reddit only gave them the text. They gave me the text and wanted me to classify if the text belongs to over 30 age group or over 40.
+#### The objective of this project is to develop a text classification model that can accurately classify text posts from two different dating subreddits, namely "over30" and "over40." The aim is to distinguish between these two subreddits based on the textual content of the posts. By creating an effective classifier, we can provide valuable insights into the concerns, experiences, and preferences of individuals in the over 30 and over 40 age groups regarding dating, relationships, and related topics. This classification model will assist in identifying trends, patterns, and distinctive features specific to each age group, ultimately helping dating platforms and researchers better understand and cater to the needs and interests of these demographics.
 
 
 [Data1](https://www.reddit.com/r/datingoverthirty/)

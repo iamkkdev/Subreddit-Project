@@ -28,7 +28,7 @@ Data was extracted from reddit website using pushshift api 1000 rows at a time 8
 - [x] Most title lengths fell between 10 and 70 and 75% of the word counts were below 12
 - [x] Words like dating, date, relationship, advise are more popular from this data
 
-![words](./images/popularwords.jpg)
+![popularwords](./images/popularwords.jpg)
 
 ### Conclusion
 

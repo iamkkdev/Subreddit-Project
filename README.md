@@ -25,9 +25,10 @@ Data was extracted from reddit website using pushshift api 1000 rows at a time 8
 ![kde](./images/kde.jpg))
 
 - [x] The mean legth of the title from over40 group  was less than the mean length from the over30 group.
-
 - [x] Most title lengths fell between 10 and 70 and 75% of the word counts were below 12
 - [x] Words like dating, date, relationship, advise are more popular from this data
+
+![words](./images/popularwords.jpg)
 
 ### Conclusion
 
@@ -42,5 +43,7 @@ I've used four models to classify, firstly I used Countervectorizer with Naive B
 - [x] Testing Score TFIDF SVM : 0.67
 - [x] Training Score CounterVectorizer, XGBoost Classifier : 0.75
 - [x] Training Score CounterVectorizer, XGBoost Classifier : 0.66
+
+![confusion](./images/confusion.jpg)
 
 All the models have more false positives except the one with Naive Bayes classifier using counter vectorizer, that model has less false positives than the other models but it has more false negatives. It is clear that the data is imbalanced. We need to find a way to balance the data by aquiring more data and analyzing emoji's and hashtags. The other reason why the models were not able to classify can be because the vocaubulary used by both over30's and over40's is similar that is why it is important to find more data, balance the data and find new ways like emoji's and hashtags to find the signals to differentiate.

@@ -32,7 +32,7 @@ Data was extracted from reddit website using pushshift api 1000 rows at a time 8
 
 ### Conclusion
 
-I've used four models to classify, firstly I used Countervectorizer with Naive Bayes Classifier, the model returned a training score of 0.77 and the testing score of 0.66. I then used Naive Bayes with TFIDF vecorizer, then I used two more models using support vector machine and xgboost classifier which returned the results below:
+I've performed four models to classify, firstly I used Countervectorizer with Naive Bayes Classifier, the model returned a training score of 0.77 and the testing score of 0.66. I then used Naive Bayes with TFIDF vecorizer, then I performed two more models using support vector machine and xgboost classifier which returned the results below:
 
 
 - [x] Training Score Counter Vectorizer Naive Bayes : 0.77             
